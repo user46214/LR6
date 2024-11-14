@@ -37,7 +37,7 @@ $ git pull
 ## 7. Получение данных для каждой из веток
 
 ```bash
-$ git log --all –oneline
+$ git log --all –oneline --graph --decorate
 ```
 
 *Результат работы команды*
@@ -60,7 +60,7 @@ $ git log -1
 $ git checkout master
 $ git marge branch1
 ```
-Решение конфликта с помощью инструментов VS code путем замены содержимого mergefile.txt в ветке branch1
+Решение конфликта путем замены содержимого mergefile.txt в ветке branch1
 
 ## 10. Удаление побочной ветки после слияния
 
@@ -86,6 +86,7 @@ $ git reset --hard b51a1dd
 ```bash
 $ git checkout -b report
 ```
+![Ветка](./screenshots/7.png)
 
 ## 13. Получение истории операций в форматированном виде
 
